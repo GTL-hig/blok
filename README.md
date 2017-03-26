@@ -27,4 +27,4 @@ Blockchain research.
 
 ### Who do I talk to? ###
 
-* Talk to Mariusz, Dima or Stefan
+* Talk to Mariusz
