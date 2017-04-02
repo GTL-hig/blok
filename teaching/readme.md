@@ -2,11 +2,14 @@
 
 The slides are using Go present module. 
 
-To view the slides, do:
+You can view the slides online:
+
+* http://go-talks.appspot.com/github.com/marni/blok/teaching/01_bitcoin.slide
+* http://go-talks.appspot.com/github.com/marni/blok/teaching/01_ethereum.slide
 
 
-Alternatively, you can install Golang on your laptop.
-Then
+
+Alternatively, you can install Golang on your laptop. Then
 
 * Install Go from https://golang.org/dl/
 * Install go present tool, by running the command:
