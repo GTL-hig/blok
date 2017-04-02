@@ -5,7 +5,7 @@ The slides are using Go present module.
 You can view the slides online:
 
 * http://go-talks.appspot.com/github.com/marni/blok/teaching/01_bitcoin.slide
-* http://go-talks.appspot.com/github.com/marni/blok/teaching/01_ethereum.slide
+* http://go-talks.appspot.com/github.com/marni/blok/teaching/02_ethereum.slide
 
 
 
