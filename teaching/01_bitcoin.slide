@@ -1,0 +1,347 @@
+Blockchain 101
+High-level introduction
+9:00 28 Mar 2017
+Tags: blockchain concepts, introduction
+
+Mariusz Nowostawski
+Associate Professor, NTNU, IDI
+mariusz.nowostawski@ntnu.no
+https://medium.com/@marni
+@praeteritio
+
+
+
+* Introductions
+.background template_ntnu_page2.png 
+
+- About me
+- About you
+- Pre lecture questions
+
+
+* About me
+.background template_ntnu_page2.png 
+
+- Coder
+- Computer Scientist
+- Explorer
+
+Research interests
+
+- P2P system
+- Decentralization, Mobile 
+- Autonomous systems
+- Games
+
+
+* I love Hackatons and GameJams
+.image IMG_2123.jpg 600 _
+
+
+
+* Love computers, but also ...
+
+seriously, in love with:
+
+- Running
+- Climbing
+- Paragliding
+
+
+
+* About you
+
+
+
+
+
+* Basics
+
+- Hashing (give examples)
+Q: What is RIPEMD? What is the default length?
+Q: What is _collision_?
+Q: What is _avalanche_property_?
+
+- Peer to Peer systems (Gnutella vs Bittorrent?)
+- Consistent Hashing
+- DHT (eg. Chord, Kademlia)
+- IRC
+- FIFO, LIFO 
+
+: Try demo at: http://hash.online-convert.com/
+: This is a long text to be hashed
+: 5d92a1ffabd1518a8552b497f77c899cc9c1bd8c
+: This is a long text to be hashed.
+: d4342db5794f5f29c94827a462fd496483598041
+
+* Some Basics, cont.
+
+- Public/Private cryptography (give examples)
+  Q: Why do we use Elliptic Curves?
+
+Private key used to hash message
+Public Key used to verify the message
+→ This provides a proof of *authenticity*
+
+Public key used to encrypt a message
+Private key used to decrypt the message
+→ This provides a proof of *ownership*
+Private Key == Anonymous/Pseudonymous Identity
+
+
+* Fundamentals 
+
+- Database vs. Distributed Database
+
+- What is a ledger?
+
+- What is barter?
+
+- What is money?
+
+
+: Talk about money transfer, TAX returns
+
+
+
+* Gift economies
+
+- the assumption of integral connectedness with the natural world and people around
+- no explicit agreement or expectation of _return_
+- altruism, but expectation of “passing the goods on” to third parties is implied (I help you and you help someone else at some point)
+- social and intangible reward system; focus on a group rather than individuals (the group will help me in return)
+- gifts function as a method for distribution and circulation of valuables within a community
+
+example: *New* *Zealand* – *Koha*
+
+
+* Money: origin
+
+- pre-money era: gift economies
+- barter-like exchange methods
+- commodity money: Mesopotamia (3000BC) & ancient Egypt: grain, barley, and later: gold, silver
+
+- representative money: physical objects as medium of exchange (600BC)
+.link https://en.wikipedia.org/wiki/Rai_stones
+
+
+* Money: functions
+
+*Medium*of*exchange*
+- barter/gift inefficiencies
+- “_double_coincidence_of_wants_” problem
+
+*Unit*of*account*
+- relative worth, standard of deferred payment, concept of debt; divisible, countable, fungible
+Q: What does _fungible_ mean?  
+Q: Is Bitcoin fungible? How about Ether? 
+
+*Store* *of* *value*
+- reliable storage/retrieval/reuse; value should remain stable over time
+
+
+
+* Money: modern times
+
+Electronic Currencies
+
+- electronic, cyber, digital, ... currencies
+- only exchanged electronically
+- examples: EFT, ... (banks), DGC, other
+- virtual currencies (game dollars)
+
+
+* Digital Gold Currency
+
+- similar to USA gold certificate model
+- representative money
+- global
+- exchangeable for real gold on demand
+- only exchanged electronically
+- non-reversible transactions
+- compare -> PayPal (more credit-card-like) to DGC (more cash-like)
+
+
+* Soft vs. Hard electronic currencies
+
+*soft*
+- reversible payments, clearing time (72hrs or more), the need to handle “_disputes_”
+- Examples: PayPal, credit card payments
+
+*hard*
+- non-reversible transactions, clearing instantly. Simpler (no dispute handling). 
+- Examples: some banking currencies, some DGCs
+
+
+* Electronic currencies: common characteristics
+
+- rely on *computer*(telecommunications)*network*
+- rely on *cryptography*subsystem*
+- linked to real money, or commodity, for example gold
+- use of *blind*signatures* (anonymous); see early work by David Chaum (1983,1990)
+
+
+* Blind signatures, side note
+
+Useful for a number of applications, especially in
+- peer-to-peer systems: secure peer-to-peer transactions
+- digital currencies
+- voting systems
+
+note: give the “Alice and Bob and envelope” example
+
+
+
+* Centralised vs. decentralised systems
+
+*centralised* 
+- all modern currency systems
+
+*decentralised*
+- (gifts, barter, commodities)
+- ??
+
+: http://videolectures.net/eccs07_hales_end/
+
+
+
+* Bitcoin
+
+- described/released 31 October 2008, launched 3rd of January, 2009
+- decentralised currency (same as gift economies, barter, commodity money)
+- at the same time, it is representative money system
+- interesting from technology and finance perspectives
+- self-regulating, peer-to-peer
+
+
+
+* Bitcoin: overview
+
+- a form of electronic currency, software system, distributed database
+- decentralised: peer-to-peer network of nodes maintains/sustains the system,
+- no central authority
+- no clearing houses
+- peer-to-peer payments
+- hard: non-reversible transactions, it is cash-like
+- irreversible, but all transactions recorded in the network; *verifiable*
+
+
+
+
+* Bitcoin: overview, cont
+
+- total number of bitcoins: 21,000,000BTC (entire economy)
+- smallest exchange unit: 1 Satoshi
+- 1 BTC = 100,000,000 Satoshi
+- transaction: exchange of BTC/Satoshi units
+- block: a storage unit in the network (transactions bookkeeping)
+- first transaction in a block is special (reward)
+
+.link http://blockchain.info
+
+see Block #459211
+
+
+
+* Bitcoin: terminology
+
+- mining blocks: the process of “discovering” or “solving” the hash puzzle
+- mining difficulty; target; maximum target;
+
+self-regulating network; assumptions:
+- blocks are generated every 10min (6blocks/hr)
+- every 2016 blocks (about two weeks) the difficulty is adjusted
+- every 210,000 blocks the BTC value halved (about four years); 
+- reward started as 50BTC, 
+- halved to 25BTC, on November 28th, 2012
+- halved to 12.5BTC, on July 9th, 2016
+
+
+
+* Bitcoin: terminology, cont.
+
+- each block references the hash of the previous block
+- the “longest” chain is used by peers, “shorter” chains become orphans
+- the “length” is measured by the sum of the difficulties of blocks, not merely by the actual chain length
+
+
+
+* Bitcoin: block header
+
+- version
+- previous block hash
+- merkle root (transaction hash tree)
+- timestamp
+- difficulty
+- nonce
+- tx count
+- tx data
+
+Q: What is Merkle Tree? 
+Bonus Q: What is DAG? Why it is useful?
+
+
+* TXs: Transactions
+
+Let us have a look:
+
+.link http://blockchain.info/tx/963dc45ed2760ca531a5ade851490d641a0c62e105fc213c96bd3343fd49a97e
+
+
+
+* Bitcoin: script
+
+- Goal: validation of Bitcoin transactions
+- Forth-like programming language
+- Reversed Polish Notation
+- Composed with OP_Codes
+- Turing-incomplete (design decision)
+
+Q: what is the fundamental datastructure in Forth?
+Bonus Q: What are the necessary instructions to enable Turing-complete computing?
+
+
+
+* Bitcoin: script, cont
+
+- scriptPubKey: aka *locking*script*. Locks tx.
+- scriptSig: aka *unlocking*script*. Unlocks tx.
+- Bitcoin clients must run locking and unclocking scripts to *verify* TXs.
+   <sig> <PubK> DUP HASH160 <PubKHash> EQUALVERIFY CHECKSIG
+
+
+Q: what could happen if Bitcoin script was Turing-complete? Explain.
+Homework Q: Why do we do the above, instead of:
+   <sig> <PubK> CHECKSIG
+
+
+* 
+
+.image wtf_turing.png 600 _ 
+
+
+
+* Bonus: IPFS
+
+.link https://www.youtube.com/watch?v=Qcfp9I76Db8
+
+
+
+
+
+* References 
+.link https://en.bitcoin.it/wiki/Script
+
+David Chaum, Blind signatures for untraceable payments, Advances in Cryptology — Crypto ’82, Springer-Verlag (1983), 199-203
+
+Chaum, D., Fiat, A., and Naor, M. 1990. Untraceable electronic cash. In Proceedings on Advances in Cryptology (Santa Barbara, California, United States). S. Goldwasser, Ed. Springer-Verlag New York, New York, NY, 319-327
+
+Emergent Networks as Distributed Reputation Systems, Ripple P2P money, Lecture by David Hales. http://videolectures.net/eccs07 hales end/
+
+Nakamoto, Satoshi (24 May 2009). Bitcoin: A Peer-to-Peer Electronic Cash System.
+http://bitcoin.org/bitcoin.pdf
+
+.link http://blockexplorer.com/
+
+.link http://bitcoincharts.com/markets/
+

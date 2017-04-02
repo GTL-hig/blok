@@ -1,0 +1,82 @@
+Blockchain as Institution
+From Institutions to Code
+9:00 28 Mar 2017
+Tags: blockchain concepts, institutions, ethereum
+
+Mariusz Nowostawski
+Associate Professor, NTNU, IDI
+mariusz.nowostawski@ntnu.no
+https://medium.com/@marni
+@praeteritio
+
+
+* Blockchain: summary
+
+- Blockchain is a solution to the data consistency problem in autonomous distributed peer-to-peer systems.
+- It uses cryptography together with clever incentives and social engineering to achieve consensus, and a guaranteed consistent global state.
+- The global state is stored in the network. It is distributed.
+- The transactions are non-revocable.
+- There is an internal clock.
+
+
+* Blockchain: examples
+
+- Bitcoin (cryptocurrency)
+- Dash Coin (cryptocurrency with built-in reputation system)
+- ZCash (cryptocurrency with improved anonymity)
+- Ethereum (global computing platform)
+
+
+* Rock - Paper - Scissors 
+
+Let us play a simple game.
+
+Can we play it over a telephone?
+- Not really: we have to reveal both votes exactly at the same time. *Atomicity*. 
+
+How could two agents play this game on the Internet? 
+How could we play it *asynchronously*?
+
+
+* Asynchronous and Trusted interactions
+
+A possible solution: TRUSTED THIRD PARTY
+
+
+* Let try a simple protocol
+
+- Contract state: *voting*
+- Players send encoded “votes” hashed ( [R | P | S] )
+- Contract state: *validation*
+- Players validate their votes by sending the password to decode the vote
+- Contract state: *resolution*
+- Winner gets reward (automatically). Goto 1.
+
+Note: There are timeouts for points 1 and 2.
+
+
+* Asynchronous Trusted interactions
+
+What we need is:
+- Publicly available computing module
+- Anyone can access it, distributed, no single point of failure
+- Anyone could verify what the module does
+- The module execution is verifiable and trusted
+- There is a mechanism to prevent shutting down the execution
+
+
+* Ethereum
+
+- Global distributed computer
+- Smart Contracts: arbitrary code execution
+- Decentralized and autonomous
+
+Extras: Oracles, Turing-complete execution 
+
+
+* Exercise
+
+Transfer me some money, on TESTNET
+   0x793C02846f1eb5Ebd4aaad566DCE7FE7d1Da3AaB
+
+
