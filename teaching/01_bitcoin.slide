@@ -227,7 +227,6 @@ note: give the “Alice and Bob and envelope” example
 
 
 
-
 * Bitcoin: overview, cont
 
 - total number of bitcoins: 21,000,000BTC (entire economy)
@@ -326,7 +325,12 @@ Homework Q: Why do we do the above, instead of:
 .link https://www.youtube.com/watch?v=Qcfp9I76Db8
 
 
+* Additional resources
 
+.link https://www.gwern.net/Bitcoin-is-Worse-is-Better Essay on Bitcoin
+.link https://en.bitcoin.it/wiki/Pay_to_script_hash P2SH
+.link https://cryptonote.org/
+.link https://en.wikipedia.org/wiki/Ring_signature Ring signatures
 
 
 * References 
