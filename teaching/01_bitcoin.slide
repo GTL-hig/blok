@@ -1,6 +1,6 @@
 Blockchain 101
 High-level introduction
-9:00 05 Nov 2018
+9:00 18 Mar 2019
 Tags: blockchain concepts, introduction
 
 Mariusz Nowostawski
@@ -12,7 +12,7 @@ https://medium.com/@marni
 
 
 * Introductions
-.background template_ntnu_page2.png 
+.background template_ntnu_page2.png
 
 - About me
 - About you
@@ -20,7 +20,7 @@ https://medium.com/@marni
 
 
 * About me
-.background template_ntnu_page2.png 
+.background template_ntnu_page2.png
 
 - Coder
 - Computer Scientist
@@ -29,7 +29,7 @@ https://medium.com/@marni
 Research interests
 
 - P2P system
-- Decentralization, Mobile 
+- Decentralization, Mobile
 - Autonomous systems
 - Games
 
@@ -46,6 +46,10 @@ seriously, in love with:
 - Running
 - Climbing
 - Paragliding
+
+.image GOPR0058.jpg
+.image GOPR0059.jpg
+
 
 
 
@@ -66,7 +70,7 @@ Q: What is _avalanche_property_?
 - Consistent Hashing
 - DHT (eg. Chord, Kademlia)
 - IRC
-- FIFO, LIFO 
+- FIFO, LIFO
 
 : Try demo at: http://hash.online-convert.com/
 : This is a long text to be hashed
@@ -89,7 +93,7 @@ Private key used to decrypt the message
 Private Key == Anonymous/Pseudonymous Identity
 
 
-* Fundamentals 
+* Fundamentals
 
 - Database vs. Distributed Database
 
